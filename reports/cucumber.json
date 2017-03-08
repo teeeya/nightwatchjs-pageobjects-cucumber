@@ -1,0 +1,73 @@
+[
+  {
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Load Asos homepage",
+    "tags": [],
+    "uri": "/Users/franzsittampalam/Documents/Nightwatch/Nightwatchjs-cucumber-pageobjects/features/asos.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Navigating to asos.com",
+        "tags": [],
+        "id": "load-asos-homepage;navigating-to-asos.com",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open Asos's homepage",
+            "result": {
+              "status": "passed",
+              "duration": 5632
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/franzsittampalam/Documents/Nightwatch/Nightwatchjs-cucumber-pageobjects/features/step_definitions/asos.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the page has loaded",
+            "result": {
+              "status": "passed",
+              "duration": 76
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/franzsittampalam/Documents/Nightwatch/Nightwatchjs-cucumber-pageobjects/features/step_definitions/asos.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the title is \"ASOS | Shop the Latest Clothes and Fashion Online\"",
+            "result": {
+              "status": "passed",
+              "duration": 27
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/franzsittampalam/Documents/Nightwatch/Nightwatchjs-cucumber-pageobjects/features/step_definitions/asos.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the url contains Asos",
+            "result": {
+              "status": "passed",
+              "duration": 40
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/franzsittampalam/Documents/Nightwatch/Nightwatchjs-cucumber-pageobjects/features/step_definitions/asos.js:17"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "load-asos-homepage"
+  }
+]

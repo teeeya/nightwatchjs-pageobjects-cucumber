@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="homepage"
+    errors="0" failures="1" hostname="" id="" package="homepage" skipped="0"
+    tests="3" time="50.87" timestamp="Wed, 08 Mar 2017 14:46:10 GMT">
+  
+    <testcase name="Load Homepage" time="27.82" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Search for bikini" time="9.546" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Add item to basket and checkout" time="13.51" assertions="3">
+
+    
+
+      <failure message="Timed out while waiting for element &lt;a.add-button&gt; to be present for 5000 milliseconds.">    at Page.add (/Users/franzsittampalam/Documents/Nightwatch/Nightwatchjs-cucumber-pageobjects/pages/asoshomepage.js:18:4)
+    at Object.Add item to basket and checkout (/Users/franzsittampalam/Documents/Nightwatch/Nightwatchjs-cucumber-pageobjects/tests/homepage.js:19:68)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

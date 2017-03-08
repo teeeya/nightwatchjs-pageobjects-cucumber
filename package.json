@@ -1,0 +1,29 @@
+{
+  "name": "nightwatchjs-cucumber-pageobjects",
+  "version": "1.0.0",
+  "description": "Automated tests using nightwatchjs, cucumber and page objects design pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teeeya/nightwatchjs-pageobjects-cucumber.git"
+  },
+  "keywords": [
+    "automation",
+    "tests",
+    "nightwatchjs",
+    "javascript"
+  ],
+  "author": "Tiya Chowdhury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teeeya/nightwatchjs-pageobjects-cucumber/issues"
+  },
+  "homepage": "https://github.com/teeeya/nightwatchjs-pageobjects-cucumber#readme",
+  "dependencies": {
+    "cucumber": "^2.0.0-rc.7",
+    "nightwatch": "^0.9.12"
+  }
+}

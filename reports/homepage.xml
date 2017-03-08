@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="3">
+
+  <testsuite name="homepage"
+    errors="1" failures="0" hostname="" id="" package="homepage" skipped="2"
+    tests="3" time="0.01200" timestamp="Wed, 08 Mar 2017 14:34:46 GMT">
+  
+    <testcase name="Load Homepage" time="0.01200" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Homepage / Load Homepage]:
+
+  TypeError: Cannot read property &#39;asoshomepage&#39; of undefined
+    at Object.Load Homepage (/Users/franzsittampalam/Documents/Nightwatch/Nightwatchjs-cucumber-pageobjects/tests/homepage.js:4:28)
+    at Module.call (/Users/franzsittampalam/Documents/Nightwatch/Nightwatchjs-cucumber-pageobjects/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/franzsittampalam/Documents/Nightwatch/Nightwatchjs-cucumber-pageobjects/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/franzsittampalam/Documents/Nightwatch/Nightwatchjs-cucumber-pageobjects/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/franzsittampalam/Documents/Nightwatch/Nightwatchjs-cucumber-pageobjects/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/franzsittampalam/Documents/Nightwatch/Nightwatchjs-cucumber-pageobjects/node_modules/q/q.js:796:13)
+    at /Users/franzsittampalam/Documents/Nightwatch/Nightwatchjs-cucumber-pageobjects/node_modules/q/q.js:556:49
+    at runSingle (/Users/franzsittampalam/Documents/Nightwatch/Nightwatchjs-cucumber-pageobjects/node_modules/q/q.js:137:13)
+    at flush (/Users/franzsittampalam/Documents/Nightwatch/Nightwatchjs-cucumber-pageobjects/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+  
+    
+    <testcase
+      name="Search for bikini">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Add item to basket and checkout">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
