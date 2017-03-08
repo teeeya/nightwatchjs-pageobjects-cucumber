@@ -24,6 +24,7 @@
   "homepage": "https://github.com/teeeya/nightwatchjs-pageobjects-cucumber#readme",
   "dependencies": {
     "cucumber": "^2.0.0-rc.7",
-    "nightwatch": "^0.9.12"
+    "nightwatch": "^0.9.12",
+    "nightwatch-cucumber": "^7.0.10"
   }
 }
