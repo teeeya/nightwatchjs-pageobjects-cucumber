@@ -25,6 +25,7 @@
   "dependencies": {
     "cucumber": "^2.0.0-rc.7",
     "nightwatch": "^0.9.12",
-    "nightwatch-cucumber": "^7.0.10"
+    "nightwatch-cucumber": "^7.0.10",
+    "selenium-standalone": "^6.1.0"
   }
 }
